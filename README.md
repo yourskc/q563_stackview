@@ -1,8 +1,4 @@
-# q563_coffee
-
-Example Qt5.6.3 project for running on RZ/G2L
-
-[![Demo](https://img.youtube.com/vi/Ut3NRg76IYc/0.jpg)](https://www.youtube.com/watch?v=Ut3NRg76IYc)
+# q563_stackview
 
 ## 1. Qt installation 
 
@@ -50,24 +46,15 @@ Click on Projects on the left side, add kits for RZ/G2L, Ctrl-B to build, it wil
 browse to the RZ/G2L build output folder, find the executable named q563_coffee. We need to transfer it to the RZ/G2L target board.
 
 ```
-scp q563_coffee root@ip_of_rzg2l:/home/root 
+scp q563_stackview root@ip_of_rzg2l:/home/root 
 ```
 
 On the RZ/G2L, we can run the executable as below,  
 
 ```
 cd /home/root
-./q563_coffee
+./q563_stackview
 ```
-
-Another coffee machine example originally come from Qt5.12.10 Examples. Please reference to our version,
-
-moil_coffee repo :
-
-https://github.com/yourskc/moil_coffee
-
-
-[![q51210_coffee](https://img.youtube.com/vi/it3XaNYqQ_c/0.jpg)](https://www.youtube.com/watch?v=it3XaNYqQ_c) 
 
 ## 3. QtQuick version
 
